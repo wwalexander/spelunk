@@ -15,7 +15,7 @@ func init() {
 	flag.Usage = func() {
 		fmt.Fprintf(
 			flag.CommandLine.Output(),
-			"Usage: %s [flags] [path ...]\n",
+			"Usage: %s [flags] path ...\n",
 			os.Args[0],
 		)
 		flag.PrintDefaults()

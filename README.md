@@ -1,8 +1,12 @@
 # spelunk
 
+## Installation
+
     go get github.com/wwalexander/spelunk
 
-    spelunk [flags] [path ...]
+## Usage
+
+    spelunk [flags] path ...
       -name pattern
     	    True if the last component of the pathname being examined matches pattern
       -path pattern
